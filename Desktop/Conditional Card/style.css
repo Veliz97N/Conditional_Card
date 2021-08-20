@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.formulario{
+    width: 100%;
+}
+.nav{
+    padding-top: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 4px #888888;
+}
+label{
+    width:100%;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: left;
+    display:block;
+}
+input{
+    max-width: 140px;
+    font-size: 0.8rem;
+
+}
+select{
+    margin:auto;
+    font-size: 0.8rem;
+    width: 100%;
+}
+input:hover{
+    border:2px solid blue;
+}
+.center{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+.content .box_outside{
+    width:33%;
+    height: 700px;
+    position: relative;
+}
+.content .box_outside .card{
+    border:1px solid black;
+    width:85%;
+    height: 600px;
+    position: relative;
+}
+.left{
+    top:18%;
+    left: 0;
+}
+.right{
+    top:18%;
+    right:0;
+}
+.social_media{
+    width: 7.5%;
+    height: 180px;
+    background-color: #42d2cb;    
+    display: flex;    
+    justify-content:space-around;    
+    position: absolute;
+    flex-direction: column;
+}
+.fab{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.content .box_outside .card .background_imagen{
+    width: 100%;
+    height: 45%;
+    background-image: url(/Images/usach.jpg);
+    background-size: cover;
+}
+.content .box_outside .card .profile_imagen{
+    width: 140px;
+    top:35%;
+    left: 35%;
+    position: absolute;
+    height: 140px;
+    background-size: cover;
+    border-radius: 50%;
+    border:5px solid white; /* Si no hay backgroun image no hay border*/
+    background-image: url(/Images/Perfil.jpg);
+    z-index: 55;    
+}
+.content .box_outside .card .contenido_profile{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top:70%;
+}
+#Name{
+    display: inline;
+    margin-bottom: 30px;
+    font-size: 1.9rem;
+    text-transform: capitalize;
+}
+#Last_Name{
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 1.9rem;
+    text-transform: capitalize;
+}
+#Info{
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color:#757575;
+}
+#Location_City{
+    display: inline;
+    font-size: 1rem;
+    color:#757575;
+}
+#Location_Country{
+    display:inline-block;
+    font-size: 1rem;
+    color:#757575;
+
+}
+
