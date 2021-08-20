@@ -78,7 +78,7 @@ input:hover{
 .content .box_outside .card .background_imagen{
     width: 100%;
     height: 45%;
-    background-image: url(/Images/usach.jpg);
+    background-image: url(/Desktop/Conditional_Card/Images/usach.jpg);
     background-size: cover;
 }
 .content .box_outside .card .profile_imagen{
@@ -90,7 +90,7 @@ input:hover{
     background-size: cover;
     border-radius: 50%;
     border:5px solid white; /* Si no hay backgroun image no hay border*/
-    background-image: url(/Images/Perfil.jpg);
+    background-image: url(/Desktop/Conditional_Card/Images/Perfil.jpg);
     z-index: 55;    
 }
 .content .box_outside .card .contenido_profile{

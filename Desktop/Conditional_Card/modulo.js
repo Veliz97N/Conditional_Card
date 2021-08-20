@@ -4,7 +4,7 @@ cover.addEventListener("change", () => {
     let cover_backgroundImage = document.querySelector(".background_imagen")
     console.log(cover_background);
     if (cover_background == "true") {
-        cover_backgroundImage.style.backgroundImage = "url(/Images/usach.jpg)";
+        cover_backgroundImage.style.backgroundImage = "url(/Desktop/Conditional_Card/Images/usach.jpg)";
     }
     else {
         cover_backgroundImage.style.backgroundImage = "none";
